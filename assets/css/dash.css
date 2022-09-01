@@ -1,0 +1,28 @@
+:root {--bs-gray-100: #fefefe;--bs-gray-200: #f6f7f9;--bs-gray-300: #cacaca;--bs-gray-400: #aab0bc;--bs-gray-500: #959ca9;--bs-gray-600: #60697b;--bs-gray-700: #2f353a;--bs-gray-800: #21262c;--bs-gray-900: #1e2228;--bs-color-navy: rgb(52,63,82);--bs-color-sky: #5eb9f0;--bs-pink: rgb(246, 128, 159);--bs-pink-dk: rgb(244, 35, 70);}
+* {margin: 0;padding: 0;box-sizing: border-box;}
+html, body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    overflow: hidden;
+}
+
+main {
+    background: url("/assets/img/illustrations/404@2x.png");
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+}
+
+                    /* 720-913px media query */
+@media (max-width: 57.2rem) {
+    main {
+        background: url("/assets/img/illustrations/404.png");
+        background-size: contain;
+    }
+}
